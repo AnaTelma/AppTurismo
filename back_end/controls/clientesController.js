@@ -1,10 +1,10 @@
-
 const Cliente = require('../models/clientesModel.js')
 
 exports.getClientes = async(req, res) => {
     try {
         const Clientes = await Cliente.ClienteModel.find();
         res.json(Clientes)
+        //res.send(Clientes);
     }catch(error) {
         res.status(500).json({ message: error.message });
 

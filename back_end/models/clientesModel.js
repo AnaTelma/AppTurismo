@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 //require("dotenv").config();
 //const MONGO_URI = process.env.MONGO_URI;
 
-mongoose.connect("mongodb+srv://AnaTelma:ju040203@cluster0.58sxb.mongodb.net/", { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect("mongodb+srv://AnaTelma:ju040203@cluster0.58sxb.mongodb.net/Appturismo", { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log('Conectado ao MongoDB com sucesso!'))
   .catch((error) => console.error('Erro ao conectar ao MongoDB:', error));
 

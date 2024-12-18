@@ -5,7 +5,7 @@ var pontosturisticosController = require('../controls/pontosturisticosController
 router.get('/', pontosturisticosController.getpontosturisticos);
 router.post('/', pontosturisticosController.createpontosturisticos);
 router.get('/:id', pontosturisticosController.getonepontosturisticos);
-router.get('/cpf/:id', pontosturisticosController.getonepontosturisticosCPF);
+router.get('/cpf/:id', pontosturisticosController.getonepontosturisticosCNPJ);
 router.put('/:id', pontosturisticosController.updatepontosturisticos);
 router.delete('/:id', pontosturisticosController.deletepontosturisticos);
 

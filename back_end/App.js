@@ -6,7 +6,7 @@ var logger = require('morgan');
 var cors = require('cors');
 
 var clientesRouter = require('./routes/clienteRoutes');
-var pontosturisticosRouter = require('./routes/pontosturisticosRouter');
+var pontosturisticosRouter = require('./routes/pontosturisticosRoutes');
 
 var app = express();
 
